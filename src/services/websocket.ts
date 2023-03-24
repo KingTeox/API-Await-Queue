@@ -1,4 +1,4 @@
-import { Server } from "https";
+import { Server } from "http";
 import ws from "ws";
 
 class websocketServer {
@@ -10,7 +10,8 @@ class websocketServer {
     };
 
     async create() {
-        
+        console.log(`[Teox] <ws> Started.`);
+        return new ws.Server({ server: this.server });
     };
 };
 

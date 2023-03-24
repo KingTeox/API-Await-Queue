@@ -6,7 +6,10 @@ import path from "path";
 import http from "http";
 
 import routers from "../routers/index";
+
 import logger from "./logs";
+import queue from "./queue";
+import websocket from "./websocket";
 
 class server {
 
@@ -30,9 +33,11 @@ class server {
         console.log(`[Teox] <server> routers Loaded.`);
 
         const serverHttp = http.createServer(this.app);
+        const serverWs   = new websocket(serverHttp);
 
-        serverHttp.listen(5443, () => {
+        serverHttp.listen(5443, async () => {
             console.log(`[Teox] <server> listening`);
+            new queue(await serverWs.create());
         });
     };
 };
