@@ -24,13 +24,16 @@ class server {
 
         this.app.use(helmet());
         console.log(`[Teox] <server> helmet Loaded.`);
-        this.app.use(express.static(path.join(__dirname, "../public/")));
-        console.log(`[Teox] <server> static Loaded in ${path.join(__dirname, "../public/")}`);
+        this.app.use(express.static(path.join(__dirname, "../../../public/")));
+        console.log(`[Teox] <server> static Loaded.`);
         this.app.use("/", this.routers);
         console.log(`[Teox] <server> routers Loaded.`);
 
         const serverHttp = http.createServer(this.app);
 
+        serverHttp.listen(5443, () => {
+            console.log(`[Teox] <server> listening`);
+        });
     };
 };
 

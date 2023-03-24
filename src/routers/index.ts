@@ -11,9 +11,15 @@ routersManager.use((req, res, next) => {
     next();
 });
 
-routersManager.use("/", async (req, res) => {
+routersManager.all("/", async (req, res) => {
     return res.json({
         server: "OK"
+    });
+});
+
+routersManager.use((req, res) => {
+    return res.json({ 
+        message: "Router or File not found."
     });
 });
 
