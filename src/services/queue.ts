@@ -23,10 +23,13 @@ class queue {
     async autoRemove() {
         console.log(`[Teox] <queue> autoRemove Started.`);
         setInterval(() => {
+            
             if (this.position === 0)        { return; };
             if (this.next.length === 0)     { return; };
+            
             this.next[0].socket.close(1000, JSON.stringify({ message: "Chegou sua vez." }));
-            this.position--; 
+            this.position--;
+            
             console.log(`[Teox] <queue> autoRemove ${this.next[0].request.headers["x-real-ip"]?.toString() || "Local"}`);
         }, 5000);
     };
