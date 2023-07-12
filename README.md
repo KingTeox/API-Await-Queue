@@ -33,7 +33,7 @@ Carregando informações adicionais..
 Nome: Carlos Eduardo<br>
 Github: [KingTeox](https://github.com/KingTeox/)<br>
 Email: [therghbr@outlook.com.br](mailto:therghbr@outlook.com.br)<br>
-Discord: teox47[Teox#3917]()
+Discord: teox47(Teox#3917)
 
 # 12/07/2023 as 09:00 horas.
 
