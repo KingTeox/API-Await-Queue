@@ -1,22 +1,22 @@
 # O que é isso
 
 O que faz: Simula uma fila de espera aonde cada Client;<br>
-Como eu fiz: TypeScript e usando [bibliotecas](Packages) classicas, veja mais [aqui](Server);<br>
-Por que eu fiz isso: Estava no tedio e querendo aumentar o meus projetos aqui no github aumentando os repositorios.
+Como eu fiz: TypeScript e usando [bibliotecas](#packages) classicas, veja mais [aqui](#server);<br>
+Por que eu fiz isso: Estava no tedio e querendo aumentar os meus projetos aqui no github aumentando assim meu portfolio.
 
 # Como usar
 
-Carregando..
+Carregando informações adicionais..
 
 # Client
 
-Carregando..
+Carregando informações adicionais..
 
 # Server
 
-Referencia: [Mozilla](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_servers)
-
-Carregando..
+Referencia: [Mozilla](https://developer.mozilla.org/pt-BR/docs/Web/API/WebSockets_API/Writing_WebSocket_servers);<br>
+Linguagens de programação: [TypeScript](https://www.typescriptlang.org/), [NodeJs](https://nodejs.org/);<br>
+Carregando informações adicionais..
 
 # Packages
 
@@ -26,7 +26,7 @@ Carregando..
 
 # Rotas
 
-Carregando..
+Carregando informações adicionais..
 
 # Author
 
