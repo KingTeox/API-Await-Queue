@@ -1,6 +1,6 @@
 # O que é isso
 
-O que faz: Simula uma fila de espera aonde cada Client;<br>
+O que faz: Simula uma fila de espera aonde cada Client conectado e gerenciado;<br>
 Como eu fiz: TypeScript e usando [bibliotecas](#packages) classicas, veja mais [aqui](#server);<br>
 Por que eu fiz isso: Estava no tedio e querendo aumentar os meus projetos aqui no github aumentando assim meu portfolio.
 
@@ -28,17 +28,19 @@ Carregando informações adicionais..
 
 # Rotas
 
+wss://localhost
+
 Carregando informações adicionais..
 
 # Author
 
 Nome: Carlos Eduardo<br>
 Github: [KingTeox](https://github.com/KingTeox/)<br>
-Email: [therghbr@outlook.com.br](mailto:therghbr@outlook.com.br)<br>
-Discord: teox47(Teox#3917)
+Email Pessoal: [carlosecarneiroka@gmail.com](mailto:carlosecarneiroka@gmail.com)<br>
+Discord: teox.kill(Teox#3917)
 
 # 12/07/2023 as 09:00 horas.
 
 Estou melhorando esse projeto agora.
 
-Motivo: Tinha feito de um jeito simples e rapido porem tem muita coisa o que melhorar aqui.
+Motivo: Tinha feito de um jeito simples e rapido porem tem muita coisa o que melhorar aqui e fazer com que isso seja bem maior e melhor.
