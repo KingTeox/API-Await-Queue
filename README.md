@@ -1,6 +1,6 @@
 # O que é isso
 
-O que faz: Simula uma fila de espera aonde cada Client conectado e gerenciado;<br>
+O que faz: Simula uma fila de espera aonde cada Client conectado e gerenciado no meio dessa fila virtual;<br>
 Como eu fiz: TypeScript e usando [bibliotecas](#packages) classicas, veja mais [aqui](#server);<br>
 Por que eu fiz isso: Estava no tedio e querendo aumentar os meus projetos aqui no github aumentando assim meu portfolio.
 
