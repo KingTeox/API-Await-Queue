@@ -8,7 +8,7 @@ const routersManager = Router();
 
 routersManager.use((req, res, next) => {
     //console.log(req.headers);
-    loggerManager.log({ type: "HTTP", ip: req.headers["x-real-ip"]?.toString() || "Local", extra: `headers: ${req.rawHeaders.length}`, rota: req.originalUrl })
+    loggerManager.log({ type: "HTTP", ip: req.headers["x-real-ip"]?.toString() || "Local", extra: req.headers, rota: req.originalUrl })
     next();
 });
 

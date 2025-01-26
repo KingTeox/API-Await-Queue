@@ -10,12 +10,12 @@ class logger {
         this.path = "../../../src/logs/"
     };
 
-    async log(data: { type: string, ip: string, extra: string, rota: string }) {
+    async log(data: { type: string, ip: string, extra: any, rota: string }) {
         const { type, ip, extra, rota } = data;
-        console.log(`[Teox] <Logger> ${type}<${ip}>: ${extra}`);
-        return fs.writeFile(path.join(__dirname, this.path + `log-${new Date().getTime()}.txt`), `TYPE: ${type}\nROUTER: ${rota}\nIP: ${ip}\nEXTRA: ${extra}\n\n${new Date()}`, { flag: 'wx' }, (err) => {
+        console.log(`[Teox] <Logger> [${type}] ${rota}: ${ip}`);
+        return fs.writeFile(path.join(__dirname, this.path + `log-${new Date().getTime()}.txt`), `TYPE: ${type}\nROUTER: ${rota}\nIP: ${ip}\nEXTRA: ${JSON.stringify(extra, null, " ")}\n\n${new Date()}`, { flag: 'wx' }, (err) => {
             if (err) {
-                console.log(`[Teox] <Logger> log ${err}`);
+                console.log(`[Teox] <Logger> ${err.name}[${err.stack}] - ${err.message}`);
             };
         });
     };

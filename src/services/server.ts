@@ -35,7 +35,7 @@ class server {
         const serverHttp = http.createServer(this.app);
         const serverWs   = new websocket(serverHttp);
 
-        serverHttp.listen(5443, async () => {
+        serverHttp.listen(process.env.PORT, async () => {
             console.log(`[Teox] <server> listening`);
             new queue(await serverWs.create());
         });

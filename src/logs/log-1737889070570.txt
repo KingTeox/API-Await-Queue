@@ -1,0 +1,24 @@
+TYPE: HTTP
+ROUTER: /all
+IP: Local
+EXTRA: {
+ "host": "localhost:3000",
+ "connection": "keep-alive",
+ "cache-control": "max-age=0",
+ "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+ "sec-ch-ua-mobile": "?0",
+ "sec-ch-ua-platform": "\"Windows\"",
+ "accept-language": "pt-BR,pt;q=0.9",
+ "dnt": "1",
+ "upgrade-insecure-requests": "1",
+ "user-agent": "*",
+ "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+ "sec-fetch-site": "none",
+ "sec-fetch-mode": "navigate",
+ "sec-fetch-user": "?1",
+ "sec-fetch-dest": "document",
+ "accept-encoding": "gzip, deflate, br, zstd",
+ "if-none-match": "*"
+}
+
+Sun Jan 26 2025 07:57:50 GMT-0300 (Horário Padrão de Brasília)
