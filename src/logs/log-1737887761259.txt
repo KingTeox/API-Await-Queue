@@ -1,0 +1,6 @@
+TYPE: HTTP
+ROUTER: /all
+IP: Local
+EXTRA: headers: 34
+
+Sun Jan 26 2025 07:36:01 GMT-0300 (Horário Padrão de Brasília)

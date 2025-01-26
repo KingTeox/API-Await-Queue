@@ -7,12 +7,12 @@ const fila = new Map();
 
 class queue {
 
-    server: Server<WebSocket>;
+    server: Server<typeof WebSocket>;
     position: number;
     next: Array<{ socket: WebSocket, request: IncomingMessage }>;
     logs: logger;
     
-    constructor(server: Server<WebSocket>) {
+    constructor(server: Server<typeof WebSocket>) {
         this.server     = server;
         this.position   = 0;
         this.next       = [];
