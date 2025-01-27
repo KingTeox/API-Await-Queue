@@ -44,3 +44,7 @@ Discord: teox.kill(Teox#3917)
 Estou melhorando esse projeto agora.
 
 Motivo: Tinha feito de um jeito simples e rapido porem tem muita coisa o que melhorar aqui e fazer com que isso seja bem maior e melhor.
+
+# 27/01/2025 as 06:19
+
+Eu sofri alguns imprevistos em minha vida, sim por 2 anos, mais ainda irei melhorar esse projeto.
